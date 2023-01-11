@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		5EA4C40A296CA650002588D0 /* AutoCodeAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4C409296CA650002588D0 /* AutoCodeAIApp.swift */; };
-		5EA4C40C296CA650002588D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4C40B296CA650002588D0 /* ContentView.swift */; };
+		5EA4C40C296CA650002588D0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4C40B296CA650002588D0 /* LoginView.swift */; };
 		5EA4C40E296CA654002588D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EA4C40D296CA654002588D0 /* Assets.xcassets */; };
 		5EA4C411296CA654002588D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EA4C410296CA654002588D0 /* Preview Assets.xcassets */; };
+		5EA4C419296CAC62002588D0 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4C418296CAC62002588D0 /* SignUpView.swift */; };
+		5EA4C41B296CAC7A002588D0 /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4C41A296CAC7A002588D0 /* ConfirmationView.swift */; };
+		5EA4C41D296CACB7002588D0 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4C41C296CACB7002588D0 /* ResetPasswordView.swift */; };
+		5EA4C41F296CACD9002588D0 /* ResetPasswordConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4C41E296CACD9002588D0 /* ResetPasswordConfirmView.swift */; };
+		5EA4C421296CAD1F002588D0 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4C420296CAD1F002588D0 /* SessionManager.swift */; };
+		5EA4C423296CAD88002588D0 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA4C422296CAD88002588D0 /* SessionView.swift */; };
+		5EBE815E296CB4680059C92B /* ViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBE815D296CB4680059C92B /* ViewExtention.swift */; };
+		7F2F7C148C021E10132149FF /* Pods_AutoCodeAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D88B140B9A0B82EE947D06 /* Pods_AutoCodeAI.framework */; };
+		B5982DC844AFB14BCAE383B6 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = D9E3120E7B1E54AD302DA9A5 /* awsconfiguration.json */; };
+		F965B0F8E801F4A383489D7E /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 48DE5345F2246F0385608D31 /* amplifyconfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25960617E12E756CF86DED5C /* Pods-AutoCodeAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoCodeAI.release.xcconfig"; path = "Target Support Files/Pods-AutoCodeAI/Pods-AutoCodeAI.release.xcconfig"; sourceTree = "<group>"; };
+		48DE5345F2246F0385608D31 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; lastKnownFileType = text.json; name = amplifyconfiguration.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		50D88B140B9A0B82EE947D06 /* Pods_AutoCodeAI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoCodeAI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EA4C406296CA650002588D0 /* AutoCodeAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoCodeAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EA4C409296CA650002588D0 /* AutoCodeAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCodeAIApp.swift; sourceTree = "<group>"; };
-		5EA4C40B296CA650002588D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5EA4C40B296CA650002588D0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		5EA4C40D296CA654002588D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EA4C410296CA654002588D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5EA4C418296CAC62002588D0 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		5EA4C41A296CAC7A002588D0 /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
+		5EA4C41C296CACB7002588D0 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		5EA4C41E296CACD9002588D0 /* ResetPasswordConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordConfirmView.swift; sourceTree = "<group>"; };
+		5EA4C420296CAD1F002588D0 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		5EA4C422296CAD88002588D0 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		5EBE815D296CB4680059C92B /* ViewExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtention.swift; sourceTree = "<group>"; };
+		D9E3120E7B1E54AD302DA9A5 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = text.json; lastKnownFileType = text.json; name = awsconfiguration.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		F75B11B3BC34B5293C3D3456 /* Pods-AutoCodeAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoCodeAI.debug.xcconfig"; path = "Target Support Files/Pods-AutoCodeAI/Pods-AutoCodeAI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +48,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F2F7C148C021E10132149FF /* Pods_AutoCodeAI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32931BD4D1C9E86CD8EAEAAF /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				D9E3120E7B1E54AD302DA9A5 /* awsconfiguration.json */,
+				48DE5345F2246F0385608D31 /* amplifyconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			sourceTree = "<group>";
+		};
+		3462EB709C5CAA64884F19CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50D88B140B9A0B82EE947D06 /* Pods_AutoCodeAI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44D716D19DE0D72DF903221E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F75B11B3BC34B5293C3D3456 /* Pods-AutoCodeAI.debug.xcconfig */,
+				25960617E12E756CF86DED5C /* Pods-AutoCodeAI.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5EA4C3FD296CA650002588D0 = {
 			isa = PBXGroup;
 			children = (
 				5EA4C408296CA650002588D0 /* AutoCodeAI */,
 				5EA4C407296CA650002588D0 /* Products */,
+				44D716D19DE0D72DF903221E /* Pods */,
+				3462EB709C5CAA64884F19CE /* Frameworks */,
+				32931BD4D1C9E86CD8EAEAAF /* AmplifyConfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +104,8 @@
 		5EA4C408296CA650002588D0 /* AutoCodeAI */ = {
 			isa = PBXGroup;
 			children = (
+				5EA4C417296CA7B0002588D0 /* Auth */,
 				5EA4C409296CA650002588D0 /* AutoCodeAIApp.swift */,
-				5EA4C40B296CA650002588D0 /* ContentView.swift */,
 				5EA4C40D296CA654002588D0 /* Assets.xcassets */,
 				5EA4C40F296CA654002588D0 /* Preview Content */,
 			);
@@ -67,6 +120,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		5EA4C417296CA7B0002588D0 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				5EA4C40B296CA650002588D0 /* LoginView.swift */,
+				5EA4C418296CAC62002588D0 /* SignUpView.swift */,
+				5EA4C41A296CAC7A002588D0 /* ConfirmationView.swift */,
+				5EA4C41C296CACB7002588D0 /* ResetPasswordView.swift */,
+				5EA4C41E296CACD9002588D0 /* ResetPasswordConfirmView.swift */,
+				5EA4C420296CAD1F002588D0 /* SessionManager.swift */,
+				5EA4C422296CAD88002588D0 /* SessionView.swift */,
+				5EBE815D296CB4680059C92B /* ViewExtention.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5EA4C414296CA654002588D0 /* Build configuration list for PBXNativeTarget "AutoCodeAI" */;
 			buildPhases = (
+				B4CB833DCE388BA4ACBD1B00 /* [CP] Check Pods Manifest.lock */,
 				5EA4C402296CA650002588D0 /* Sources */,
 				5EA4C403296CA650002588D0 /* Frameworks */,
 				5EA4C404296CA650002588D0 /* Resources */,
+				480FB90327381DCA04F3B9D8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,17 +197,72 @@
 			files = (
 				5EA4C411296CA654002588D0 /* Preview Assets.xcassets in Resources */,
 				5EA4C40E296CA654002588D0 /* Assets.xcassets in Resources */,
+				B5982DC844AFB14BCAE383B6 /* awsconfiguration.json in Resources */,
+				F965B0F8E801F4A383489D7E /* amplifyconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		480FB90327381DCA04F3B9D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutoCodeAI/Pods-AutoCodeAI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutoCodeAI/Pods-AutoCodeAI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutoCodeAI/Pods-AutoCodeAI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4CB833DCE388BA4ACBD1B00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutoCodeAI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5EA4C402296CA650002588D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EA4C40C296CA650002588D0 /* ContentView.swift in Sources */,
+				5EBE815E296CB4680059C92B /* ViewExtention.swift in Sources */,
+				5EA4C40C296CA650002588D0 /* LoginView.swift in Sources */,
+				5EA4C421296CAD1F002588D0 /* SessionManager.swift in Sources */,
+				5EA4C41B296CAC7A002588D0 /* ConfirmationView.swift in Sources */,
+				5EA4C423296CAD88002588D0 /* SessionView.swift in Sources */,
+				5EA4C41D296CACB7002588D0 /* ResetPasswordView.swift in Sources */,
+				5EA4C419296CAC62002588D0 /* SignUpView.swift in Sources */,
+				5EA4C41F296CACD9002588D0 /* ResetPasswordConfirmView.swift in Sources */,
 				5EA4C40A296CA650002588D0 /* AutoCodeAIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +386,7 @@
 		};
 		5EA4C415296CA654002588D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F75B11B3BC34B5293C3D3456 /* Pods-AutoCodeAI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -275,6 +401,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,6 +417,7 @@
 		};
 		5EA4C416296CA654002588D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25960617E12E756CF86DED5C /* Pods-AutoCodeAI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,6 +432,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

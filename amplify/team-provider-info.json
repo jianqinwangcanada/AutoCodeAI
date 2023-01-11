@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-autocodeai-dev-04127-authRole",
+      "UnauthRoleArn": "arn:aws:iam::764601529290:role/amplify-autocodeai-dev-04127-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::764601529290:role/amplify-autocodeai-dev-04127-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-autocodeai-dev-04127-deployment",
+      "UnauthRoleName": "amplify-autocodeai-dev-04127-unauthRole",
+      "StackName": "amplify-autocodeai-dev-04127",
+      "StackId": "arn:aws:cloudformation:us-east-1:764601529290:stack/amplify-autocodeai-dev-04127/6ddb1320-90a9-11ed-905b-0ae15995a955",
+      "AmplifyAppId": "d1eutbbmh34l8h"
+    },
+    "categories": {
+      "auth": {
+        "autocodeaibb36cd82": {}
+      }
+    }
+  }
+}
