@@ -10,7 +10,8 @@ import SwiftUI
 
 extension TextField{
     func pretty()->some View{
-        self.padding().border(Color.gray,width: 1).cornerRadius(3)
+        self.padding(EdgeInsets(top: 15, leading: 40, bottom: 15, trailing: 40)).border(Color.gray,width: 1).cornerRadius(3)
+        //self.padding().border(Color.gray,width: 1).cornerRadius(3)
     }
 }
 extension SecureField{

@@ -70,6 +70,7 @@ final class SessionManager:ObservableObject{
                    print(confirmReuslt)
                    if confirmReuslt.isSignupComplete{
                        DispatchQueue.main.async {
+                           self?.isCredentialValid = true
                            self?.showLogin()
                        }
                    }
@@ -81,7 +82,6 @@ final class SessionManager:ObservableObject{
        }
     
     func login(username:String,password:String){
-        var credentialValid:Bool=true
         _ = Amplify.Auth.signIn(
                username: username,
                password: password
@@ -95,10 +95,8 @@ final class SessionManager:ObservableObject{
                        }
                    }
                case .failure(let error):
-                   
-                   credentialValid = false
-                   print("output credential valid \(credentialValid)-----")
-                   //print(credentialValid)
+                   //Change the isCredentialVAlid
+                   self?.isCredentialValid = false
                    print("Login Error",error)
                }
                
@@ -113,6 +111,7 @@ final class SessionManager:ObservableObject{
                case .success(let signoutResult):
                    print("Sign out",signoutResult)
                    DispatchQueue.main.async {
+                       self?.isCredentialValid = true
                        self?.getCurrentUser()
                    }
                case.failure(let error):
